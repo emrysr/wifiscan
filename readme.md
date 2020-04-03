@@ -23,6 +23,7 @@
 1. Install android platform and plugin
     - `$ cordova platform add android`
     - `$ cordova plugin add https://github.com/tripflex/wifiwizard2`
+    - `$ cordova build`
 
 # Test on Android device
 1. Put android phone into developer mode
@@ -33,11 +34,17 @@
 1. Open terminal in repo directory
     - `$ cd ~/github/cordova/WifiList`
 1. Build project with cordova and send to Android device
-    - `$ cordova run android --device`
+    - `$ cordova run android`
 1. Device should open app for you to interact with (see screenshot above)
 1. DONE
 > Re-run build step when code changes to see latest build on device
 
+# Test on emulator
+1. Open terminal in repo directory
+    - `$ cd ~/github/cordova/WifiList`
+1. Build project with cordova and send to emulator
+    - `$ cordova emulate android`
+> "...this may take a while..."
 ---
 
 # System Requirements:
