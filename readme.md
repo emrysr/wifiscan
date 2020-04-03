@@ -1,31 +1,37 @@
 # Scan local wifi networks
-![screenshot](screenshot.png)
+[<img src="screenshot.png" width="250"/>](screenshot.png)
 
 # Install this cordova application
 > If you're system doesn't have all the requirements installed [(below)](#system-requirements)<br> follow this guide - [Cordova install instructions](https://github.com/TrystanLea/cordova/blob/master/installation.md)
 
 # Quick Install
-1. Clone this repo
-    - `$ git clone git@github.com:TrystanLea/cordova.git ~/github/cordova`
+1. [Clone this repo](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+    - `$ git clone [type]github.com/[username]/[repo].git`
+    > change type for `git@` or `https://` and change `username` and `repo`
 1. Open terminal in repo directory
-    - `$ cd ~/github/cordova`
-1. Set ENV vars
-   - If not already set add the following to `~/.bashrc`
-    ```bash
-    export ANDROID_SDK_ROOT="$HOME/Android/Sdk"
-    export ANDROID_HOME="$HOME/Android/Sdk"
-    export PATH=$PATH:$ANDROID_HOME/emulator
-    export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest
-    export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin
-    export PATH=$PATH:$ANDROID_HOME/platform-tools
-    ```
-    Close and re-open a terminal window to load these settings. (or run `$ source ~/.bashrc`)
-
+    - `$ cd [newly created directory]`
 1. Install android platform and plugin
     - `$ cordova platform add android`
     - `$ cordova plugin add https://github.com/tripflex/wifiwizard2`
     - `$ cordova build`
+---
+## Set ENV vars
+To enable the build software to know where the Android tools are installed use these ENV vars:
 
+You can check by typing `$ echo $ANDROID_HOME` into a terminal. If a value is shown they are already set.
+
+If not, add these to the end of `~/.bashrc`
+```bash
+export ANDROID_SDK_ROOT="$HOME/Android/Sdk"
+export ANDROID_HOME="$HOME/Android/Sdk"
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest
+export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+```
+Close and re-open a terminal window to load these settings. (or run `$ source ~/.bashrc` to reload)
+
+---
 # Test on Android device
 1. Put android phone into developer mode
     - > "..To enable developer options, tap the Build Number option 7 times.<br>
