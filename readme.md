@@ -51,7 +51,7 @@ Close and re-open a terminal window to load these settings. (or run `$ source ~/
     - `$ cd ~/github/cordova/WifiList`
 1. Build project with cordova and send to emulator
     - `$ cordova emulate android`
-> "...this may take a while..."
+> "...this may take a while the first time, however subsequent boots use a quick boot snapshot"
 ---
 
 # System Requirements:
