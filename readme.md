@@ -1,7 +1,7 @@
 # Scan local wifi networks
 ![screenshot](screenshot.png)
 # Install this cordova application
-> If you're system doesn't have all the below requirements installed<br> follow this guide - [Cordova install instructions](https://github.com/TrystanLea/cordova/blob/master/installation.md)
+> If you're system doesn't have all the requirements installed [(below)](#system-requirements)<br> follow this guide - [Cordova install instructions](https://github.com/TrystanLea/cordova/blob/master/installation.md)
 
 # Quick Install
 1. Clone this repo
@@ -29,8 +29,28 @@
 ---
 
 # System Requirements:
-Git, Node, Java, Android Studio, Gradle & Cordova
+These are the versions I've sucessfully tested with:
+| Name               | Version    |
+| ------------------ | ---------- |
+| [Node.js][3]        | v13.12.0   |
+| [Java (openjdk)][4] | v1.8.0     |
+| [Android Studio][5] | v3.6.2     |
+| [Gradle][6]         | v6.3       |
+| [Cordova][7]        | v9.0.0     |
 
+## Environment variables
+If not already set add the following to `~/.bashrc`
+```bash
+export ANDROID_SDK_ROOT="$HOME/Android/Sdk"
+export ANDROID_HOME="$HOME/Android/Sdk"
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest
+export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+```
+Close and re-open a terminal window to load these settings. (or `$ source ~/.bashrc`)
+
+## Getting versions:
 - [Node JS][3]
     - `$ node -v`
     ```

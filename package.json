@@ -1,8 +1,8 @@
 {
-  "name": "helloworld",
-  "displayName": "HelloCordova",
+  "name": "wifiscanner",
+  "displayName": "Scan Wifi",
   "version": "1.0.0",
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "description": "A sample Apache Cordova application that scans local wifi networks.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
   "keywords": [
     "ecosystem:cordova"
   ],
-  "author": "Apache Cordova Team",
+  "author": "Emrys Roberts",
   "license": "Apache-2.0",
   "dependencies": {
     "@red-mobile/cordova-plugin-networkinterface": "^2.0.2",
