@@ -12,6 +12,7 @@ var app = {
     isWifiEnabled: false,
     log_history: [],
     max_history: 400,
+    online: false,
     /**
      * wait for device to be ready
      */
@@ -44,16 +45,10 @@ var app = {
                 document.dispatchEvent(new CustomEvent('reload'));
             } else if (event.target.classList.contains('list_item') || parent_list_item) {
                 event.preventDefault();
-                var hash = (parent && parent.hash) ? parent.hash: event.target.hash;
-                console.log(hash);
+                var hash = (parent_list_item && parent_list_item.hash) ? parent_list_item.hash: event.target.hash;
                 document.dispatchEvent(new CustomEvent('connect', {detail: hash}));
             } else {
                 // no matches. carry on as normal..
-            }
-
-            if ( event.target.classList.contains('list_item') ) {
-                // Get the parent with the `.accordion` class
-                var parent = getClosest(event.target, '.accordion');
             }
         }, false);
 
@@ -203,6 +198,7 @@ var app = {
                 if (data.length === 0) throw "Empty Results";
                 app.log("Found: " + data.length);
                 app.accessPoints = data;
+                // console.log(JSON.stringify(data));
                 app.stopLoader();
             })
             .catch(function(reason){ 
@@ -271,9 +267,9 @@ var app = {
         app.getWifiScanResults();
     },
     connect: function(event) {
-        var ssid = event.detail.replace('#',''),
+        var ssid = event.detail.replace("#",""),
         bindAll = true,
-        password = prompt(`Password for ${ssid}?`),
+        password = prompt(`Password for ${ssid}?`, "ba6a3afea8"),
         algorithm = 'WPA',
         isHiddenSSID = false;
 
