@@ -8,6 +8,18 @@
     - `$ git clone git@github.com:TrystanLea/cordova.git ~/github/cordova`
 1. Open terminal in repo directory
     - `$ cd ~/github/cordova`
+1. Set ENV vars
+   - If not already set add the following to `~/.bashrc`
+    ```bash
+    export ANDROID_SDK_ROOT="$HOME/Android/Sdk"
+    export ANDROID_HOME="$HOME/Android/Sdk"
+    export PATH=$PATH:$ANDROID_HOME/emulator
+    export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest
+    export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin
+    export PATH=$PATH:$ANDROID_HOME/platform-tools
+    ```
+    Close and re-open a terminal window to load these settings. (or run `$ source ~/.bashrc`)
+
 1. Install android platform and plugin
     - `$ cordova platform add android`
     - `$ cordova plugin add https://github.com/tripflex/wifiwizard2`
@@ -37,18 +49,6 @@ These are the versions I've sucessfully tested with:
 | [Android Studio][5] | v3.6.2     |
 | [Gradle][6]         | v6.3       |
 | [Cordova][7]        | v9.0.0     |
-
-## Environment variables
-If not already set add the following to `~/.bashrc`
-```bash
-export ANDROID_SDK_ROOT="$HOME/Android/Sdk"
-export ANDROID_HOME="$HOME/Android/Sdk"
-export PATH=$PATH:$ANDROID_HOME/emulator
-export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest
-export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin
-export PATH=$PATH:$ANDROID_HOME/platform-tools
-```
-Close and re-open a terminal window to load these settings. (or `$ source ~/.bashrc`)
 
 ## Getting versions:
 - [Node JS][3]
