@@ -1,5 +1,6 @@
 # Scan local wifi networks
 ![screenshot](screenshot.png)
+
 # Install this cordova application
 > If you're system doesn't have all the requirements installed [(below)](#system-requirements)<br> follow this guide - [Cordova install instructions](https://github.com/TrystanLea/cordova/blob/master/installation.md)
 
