@@ -10,9 +10,10 @@
     > change **type** for `git@` or `https://` and change **username** and **repo** for the ones in the address bar.
 1. Open terminal in repo directory
     - `$ cd [newly created directory]`
-1. Install android platform and plugin
+1. Install android platform and cordova wifi plugin
     - `$ cordova platform add android`
     - `$ cordova plugin add https://github.com/tripflex/wifiwizard2`
+1. Build the code that can be tested on a device
     - `$ cordova build`
 ---
 ## Set ENV vars
