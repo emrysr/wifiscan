@@ -7,7 +7,7 @@
 # Quick Install
 1. [Clone this repo](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
     - `$ git clone [type]github.com/[username]/[repo].git`
-    > change type for `git@` or `https://` and change `username` and `repo`
+    > change type for `git@` or `https://` and change `username` and `repo` for the ones in the address bar.
 1. Open terminal in repo directory
     - `$ cd [newly created directory]`
 1. Install android platform and plugin
