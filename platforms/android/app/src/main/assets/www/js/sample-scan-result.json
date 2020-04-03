@@ -1,0 +1,101 @@
+[
+  {
+    "level": -52,
+    "SSID": "BTWifi-with-FON",
+    "BSSID": "1a:62:2c:76:28:df",
+    "frequency": 2437,
+    "capabilities": "[ESS]",
+    "timestamp": 672333858062,
+    "channelWidth": 0,
+    "centerFreq0": 0,
+    "centerFreq1": 0
+  },
+  {
+    "level": -57,
+    "SSID": "BTWifi-X",
+    "BSSID": "3a:62:2c:76:28:df",
+    "frequency": 2437,
+    "capabilities": "[WPA2-EAP-CCMP+TKIP][WPA-EAP-CCMP+TKIP][ESS]",
+    "timestamp": 672333858178,
+    "channelWidth": 0,
+    "centerFreq0": 0,
+    "centerFreq1": 0
+  },
+  {
+    "level": -59,
+    "SSID": "BTHub5-KG7S",
+    "BSSID": "18:62:2c:76:28:df",
+    "frequency": 2437,
+    "capabilities": "[WPA2-PSK-CCMP][ESS][WPS]",
+    "timestamp": 672333858189,
+    "channelWidth": 0,
+    "centerFreq0": 0,
+    "centerFreq1": 0
+  },
+  {
+    "level": -69,
+    "SSID": "BTHub5-KG7S_EXT",
+    "BSSID": "08:36:c9:15:c7:0d",
+    "frequency": 2437,
+    "capabilities": "[WPA2-PSK-CCMP][ESS][WPS]",
+    "timestamp": 672333858198,
+    "channelWidth": 0,
+    "centerFreq0": 0,
+    "centerFreq1": 0
+  },
+  {
+    "level": -76,
+    "SSID": "BTWifi-with-FON",
+    "BSSID": "6a:1b:86:d2:a3:5a",
+    "frequency": 2412,
+    "capabilities": "[ESS]",
+    "timestamp": 672333858216,
+    "channelWidth": 0,
+    "centerFreq0": 0,
+    "centerFreq1": 0
+  },
+  {
+    "level": -76,
+    "SSID": "BT-3HA26J",
+    "BSSID": "4c:1b:86:d2:a3:59",
+    "frequency": 2412,
+    "capabilities": "[WPA2-PSK-CCMP][ESS][WPS]",
+    "timestamp": 672333858230,
+    "channelWidth": 0,
+    "centerFreq0": 0,
+    "centerFreq1": 0
+  },
+  {
+    "level": -76,
+    "SSID": "BTWifi-X",
+    "BSSID": "6a:1b:86:d2:a3:5b",
+    "frequency": 2412,
+    "capabilities": "[WPA2-EAP-CCMP+TKIP][WPA-EAP-CCMP+TKIP][ESS]",
+    "timestamp": 672333858206,
+    "channelWidth": 0,
+    "centerFreq0": 0,
+    "centerFreq1": 0
+  },
+  {
+    "level": -77,
+    "SSID": "BTHub6-8CZP",
+    "BSSID": "3c:17:10:80:34:b0",
+    "frequency": 2412,
+    "capabilities": "[WPA2-PSK-CCMP][ESS][WPS]",
+    "timestamp": 672333858222,
+    "channelWidth": 0,
+    "centerFreq0": 0,
+    "centerFreq1": 0
+  },
+  {
+    "level": -82,
+    "SSID": "",
+    "BSSID": "6a:1b:86:d2:a3:5d",
+    "frequency": 2412,
+    "capabilities": "[WPA2-PSK-CCMP][ESS]",
+    "timestamp": 672333858238,
+    "channelWidth": 0,
+    "centerFreq0": 0,
+    "centerFreq1": 0
+  }
+]

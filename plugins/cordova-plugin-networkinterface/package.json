@@ -1,0 +1,75 @@
+{
+  "_from": "@red-mobile/cordova-plugin-networkinterface",
+  "_id": "@red-mobile/cordova-plugin-networkinterface@2.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-m+kE+u3JzTLGjrF+tVxyer288og/CVos1H5w96b/50StYSB87R7enAeRoM2b44L8J+zuWXMeHAvdfXrKaCRs3g==",
+  "_location": "/@red-mobile/cordova-plugin-networkinterface",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@red-mobile/cordova-plugin-networkinterface",
+    "name": "@red-mobile/cordova-plugin-networkinterface",
+    "escapedName": "@red-mobile%2fcordova-plugin-networkinterface",
+    "scope": "@red-mobile",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@red-mobile/cordova-plugin-networkinterface/-/cordova-plugin-networkinterface-2.0.2.tgz",
+  "_shasum": "18d651ef7d981b3f64cb78ea150f5805b54397dd",
+  "_spec": "@red-mobile/cordova-plugin-networkinterface",
+  "_where": "/home/emrys/test/wifilist",
+  "author": {
+    "name": "Hiroyuki Okada"
+  },
+  "bugs": {
+    "url": "https://github.com/okhiroyuki/cordova-plugin-networkinterface/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "@red-mobile/cordova-plugin-networkinterface",
+    "platforms": [
+      "ios",
+      "android",
+      "browser",
+      "windows"
+    ]
+  },
+  "deprecated": false,
+  "description": "This plugin allows your application to retrieve the local wifi address and http proxy information.",
+  "devDependencies": {
+    "jshint": "^2.11.0"
+  },
+  "engines": {
+    "cordova": ">=7.1.0"
+  },
+  "homepage": "https://github.com/okhiroyuki/cordova-plugin-networkinterface#readme",
+  "keywords": [
+    "local",
+    "ip",
+    "wifi",
+    "network",
+    "proxy",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android",
+    "cordova-browser",
+    "cordova-windows"
+  ],
+  "license": "MIT",
+  "name": "@red-mobile/cordova-plugin-networkinterface",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okhiroyuki/cordova-plugin-networkinterface.git"
+  },
+  "scripts": {
+    "jshint": "node node_modules/jshint/bin/jshint www",
+    "test": "npm run jshint"
+  },
+  "version": "2.0.2"
+}
