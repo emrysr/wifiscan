@@ -133,6 +133,11 @@ Once code is running within vscode you can now use these features:-
 - See the local scope for all variable values
 - Hover over the code to see the values set for each variable
 
+## Sample scan() json reponse
+I've added an Example Wifi Scan Response json file ([wifiwizard2.scan.reponse.example.json](wifiwizard2.scan.reponse.example.json)) with an example reponse of the `scan()` api call.
+You can use the contents of this file to simulate an api call resopnse during development.
+
+
 ## Debugging in vs code while app running on connected Android device:
 ![vscode Debugging](vscode.png)
 
